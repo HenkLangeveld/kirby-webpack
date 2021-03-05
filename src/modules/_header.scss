@@ -1,0 +1,19 @@
+header {
+	--header-height: 70px;
+
+	background-color: lightgray;
+}
+
+.header {
+	min-height: var(--header-height);
+	padding: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	&__item {
+		margin-left: 1rem;
+	}
+}

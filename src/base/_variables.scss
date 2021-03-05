@@ -1,0 +1,16 @@
+:root {
+  --primary-color: red;
+  --primary-color--light: pink;
+  --primary-color--dark: darkred;
+  --secondary-color: blue;
+  --secondary-color--light: lightblue;
+  --secondary-color--dark: darkblue;
+  --tertiary-color: green;
+  --tertiary-color--light: lightgreen;
+  --tertiary-color--dark: darkgreen;
+  --dark-color: #333;
+  --light-color: #fff; 
+
+  --text-color: var(--dark-color);
+  --text-color--inverted: var(--light-color)
+}

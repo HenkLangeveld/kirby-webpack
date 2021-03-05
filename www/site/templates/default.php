@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
 
-<h1><?= $page->title()->html() ?></h1>
+<main>
+  <h1><?= $page->title()->html() ?></h1>
+  <p><?= $page->text() ?></p>
+</main>
 
 <?php snippet('footer') ?>
